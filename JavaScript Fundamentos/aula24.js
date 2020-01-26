@@ -10,3 +10,5 @@ console.log(n1, n3, n5, n6)
 
 const [, [, nota]] = [[, 8, 8], [9, 6, 8]]
 console.log(nota)
+
+//DESTRUCT NO PONTO DE VISTA DO OBJETO USA A SINTAXE DE CHAVES, QUANDO É DE UMA ARRAY ELE USA COLCHETES.
