@@ -8,11 +8,11 @@ const volvo = {
     velMax: 200
 }
 
-console.log(ferrari.prototype)
-console.log(ferrari.__proto__)
-console.log(ferrari.__proto__ === Object.prototype)
-console.log(volvo.__proto__ === Object.prototype)
-console.log(Object.prototype.__proto__ === null)
+console.log(ferrari.prototype) // undefined
+console.log(ferrari.__proto__) // consegue acessar quem é o prototipo do objeto.
+console.log(ferrari.__proto__ === Object.prototype) // true
+console.log(volvo.__proto__ === Object.prototype) // true
+console.log(Object.prototype.__proto__ === null) // nulo.
 
 function MeuObjeto() {}
 console.log(typeof Object, typeof MeuObjeto)
