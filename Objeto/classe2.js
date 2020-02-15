@@ -4,9 +4,9 @@ class Avo {
     }
 }
 
-class Pai extends Avo {
+class Pai extends Avo { // extender uma classe que terar como prototipo uma outra função da classe avo
     constructor(sobrenome, profissao = 'Professor') {
-        super(sobrenome)
+        super(sobrenome) // chama a função construtora da superclasse.
         this.profissao = profissao
     }
 }
