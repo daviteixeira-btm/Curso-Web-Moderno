@@ -24,7 +24,7 @@
   <a href="#-license">License</a>
 </p>
 
-![Printsreen](1-Img/img-banner-curso-web-moderno.jpg)
+<img src="1-Img/img-banner-curso-web-moderno.jpg" min-width="400px" max-width="400px" width="400px" align="right" alt="Banner do Curso">
 
 ## 👨🏻‍💻 About the course
 ```👨🏻‍💻 Sobre o projeto```
